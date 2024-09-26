@@ -8,15 +8,9 @@
 
 /* Begin PBXFileReference section */
 		1B58037B2CA6126D00ECC470 /* Lab05.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab05.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5803932CA614FD00ECC470 /* KnightPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnightPlayer.swift; sourceTree = "<group>"; };
+		1B5803952CA6152900ECC470 /* Knight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		1B58037D2CA6126D00ECC470 /* Lab05 */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Lab05;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1B5803782CA6126D00ECC470 /* Frameworks */ = {
@@ -32,7 +26,8 @@
 		1B5803722CA6126D00ECC470 = {
 			isa = PBXGroup;
 			children = (
-				1B58037D2CA6126D00ECC470 /* Lab05 */,
+				1B5803922CA614E000ECC470 /* ViewModels */,
+				1B5803902CA614B600ECC470 /* Models */,
 				1B58037C2CA6126D00ECC470 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +38,22 @@
 				1B58037B2CA6126D00ECC470 /* Lab05.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		1B5803902CA614B600ECC470 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1B5803952CA6152900ECC470 /* Knight.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1B5803922CA614E000ECC470 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1B5803932CA614FD00ECC470 /* KnightPlayer.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +70,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				1B58037D2CA6126D00ECC470 /* Lab05 */,
 			);
 			name = Lab05;
 			packageProductDependencies = (
