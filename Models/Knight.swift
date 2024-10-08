@@ -1,23 +1,16 @@
-//
-//  Knight.swift
-//  Lab05
-//
-//  Created by Jesse Mitra on 9/26/24.
-//
-
 import Foundation
 import SwiftUI
 
 struct Knight {
-    let level: Int
-    var goldCoins: Int
-    let hitPoints: Int
+    private(set) var level: Int
+    private(set) var goldCoins: Int
+    private(set) var hitPoints: Int
     private(set) var health: Int
-    var armor: Armor
+    private(set) var armor: Armor
     
     struct Armor {
-        let material: String
-        let hitPoints: Int
+        private(set) var material: String
+        private(set) var hitPoints: Int
         private(set) var health: Int
         
         init(material: String, hitPoints: Int) {
@@ -36,11 +29,14 @@ struct Knight {
     }
     
     mutating func takeDamage(damage: Int) {
+        // Implementation to be added
     }
     
     mutating func repairArmor(coins: Int) {
+        // Implementation to be added
     }
     
     mutating func rest() {
+        // Implementation to be added
     }
 }
